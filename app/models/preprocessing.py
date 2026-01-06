@@ -8,3 +8,8 @@ def no_punctuation_preprocessor(text: str) -> str:
     translation_table = str.maketrans("", "", blacklist_chars)
     cleaned_text = text.translate(translation_table)
     return cleaned_text
+
+preprocessors = {
+    "simple": simple_preprocessor,
+    "no_punct": no_punctuation_preprocessor
+}
