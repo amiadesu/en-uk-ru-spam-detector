@@ -7,3 +7,5 @@ data/processed/*
 !data/processed/.gitkeep
 !models/dev/.gitkeep
 !models/prod/.gitkeep
+
+03_data_augmentation.ipynb
